@@ -103,7 +103,7 @@ class BaseAudioSamples(object):
             self.stratified = True
 
     def get_as_timeseries(self):
-        return np.reshape(self.X, (self.X.shape[-1], -1, 1))
+        return np.reshape(self.X, (self.X.shape[0], -1, 1))
 
 
 class RectifiedAudioSamples(BaseAudioSamples):

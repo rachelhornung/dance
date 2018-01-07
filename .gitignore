@@ -1,0 +1,13 @@
+*.pyc
+
+*.csv
+*.hdf
+*.json
+*.pkl
+
+tf_logs/*
+songs/*
+
+*.project
+*.pydevproject
+.ipynb_checkpoints/*

@@ -12,10 +12,9 @@ labels from www.tanzmusik-online.de
 
 ********************************
 current caveeats:
-no check whether label has been verified
-songs with multiple assigned labels are added to data of both labels
-if "getting labeled dance music.ipynb" is rerun, old labels are lost
-according to https://mediatum.ub.tum.de/doc/1138535/582915.pdf# classification rate should be very good -> more suitable audio features? use the ones from the paper
+songs with multiple assigned labels are added to data of both labels;
+-> should have an implementation that displays likelihood of different labels and compares to all possible labels
+according to https://mediatum.ub.tum.de/doc/1138535/582915.pdf# classification rate should be very good -> more suitable audio features? use the ones from the paper;
 no hyperparameter search
 
 

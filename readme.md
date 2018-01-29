@@ -27,11 +27,13 @@ training is memory limited -> use batch wise data generator from keras
 models in use:
 RandomForestClassifier (as baseline)
 NN
-
-models to be implemented
 RNN
 LSTM
 CNN
+
+models to be implemented
+multi-label SVM
+other models with multi-label prediction -> requires other means of assessment
 
 ********************************
 audio preprocessing in use:
